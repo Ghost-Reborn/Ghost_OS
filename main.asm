@@ -10,6 +10,18 @@ mov al, 'L'
 int 0x10
 mov al, 'O'
 int 0x10
+mov al, ' '
+int 0x10
+mov al, 'W'
+int 0x10
+mov al, 'O'
+int 0x10
+mov al, 'R'
+int 0x10
+mov al, 'L'
+int 0x10
+mov al, 'D'
+int 0x10
 
 ; Infinite loop for the bootsector
 jmp $
